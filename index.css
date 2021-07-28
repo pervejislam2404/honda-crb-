@@ -1,0 +1,22 @@
+/* global-deign */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* font-link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* header-deign */
+
+.header {
+    background-color: rgba(38, 70, 83, 1);
+    margin-bottom: 5rem;
+}
+
+.purchase-btn {
+    text-decoration: none;
+    background: rgb(228, 112, 67);
+}
