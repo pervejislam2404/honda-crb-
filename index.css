@@ -11,6 +11,9 @@
 
 /* header-deign */
 
+
+/* underline-deign */
+
 .header {
     background-color: rgba(38, 70, 83, 1);
     margin-bottom: 5rem;
@@ -19,4 +22,23 @@
 .purchase-btn {
     text-decoration: none;
     background: rgb(228, 112, 67);
+}
+
+.underline {
+    position: relative;
+}
+
+.underline::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 5rem;
+    background-color: rgba(231, 111, 81, 1);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
